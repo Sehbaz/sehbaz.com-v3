@@ -1,6 +1,7 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import "./header.css"
 
 const Header = () => (
   <header
@@ -29,11 +30,16 @@ const Header = () => (
           to="/"
           style={{
             textDecoration: `none`,
-            color: `black`,
-            fontSize: `1rem`,
           }}
         >
-          Sehbaz
+          {" "}
+          <h3
+            style={{
+              color: `black`,
+            }}
+          >
+            Sehbaz
+          </h3>
         </Link>
       </h5>
       <h5 style={{ margin: 0 }}>
@@ -42,10 +48,9 @@ const Header = () => (
           style={{
             textDecoration: `none`,
             color: `black`,
-            fontSize: `1rem`,
           }}
         >
-          Work
+          <h3>Work</h3>
         </Link>
       </h5>
     </div>

@@ -33,9 +33,17 @@ const IndexPage = () => (
 
     <div>
       <ProjectCard></ProjectCard>
-      <Link to="/work">
+      <Link
+        to="/work"
+        style={{
+          textDecoration: `none`,
+          color: `#5393fe`,
+          fontWeight: `bold`,
+          fontFamily: "Roboto",
+        }}
+      >
         {" "}
-        <h5>See work</h5>
+        <h5>See all work</h5>
       </Link>
     </div>
     <AboutPage></AboutPage>
