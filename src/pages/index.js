@@ -2,11 +2,9 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-
 import AboutPage from "../components/about"
-import ProjectCard from "../components/projectCard"
 import SEO from "../components/seo"
-import JSONbuildtime from "./json-at-buildtime"
+import ProjectCard from "../components/projectCard"
 
 const IndexPage = () => (
   <Layout>
@@ -32,17 +30,15 @@ const IndexPage = () => (
       optimal solutions to design and code problems that enhances the user’s
       <span style={{ color: `#17b1b1` }}> experience</span>.
     </h5>
-    <ProjectCard></ProjectCard>
-    <ProjectCard></ProjectCard>
-    <ProjectCard></ProjectCard>
+
     <div>
+      <ProjectCard></ProjectCard>
       <Link to="/work">
         {" "}
-        <h5>See more work</h5>
+        <h5>See work</h5>
       </Link>
     </div>
     <AboutPage></AboutPage>
-    <JSONbuildtime></JSONbuildtime>
   </Layout>
 )
 

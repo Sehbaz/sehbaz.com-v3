@@ -1,7 +1,7 @@
 import React from "react"
 
-import JSONData from "../content/Fresh-Projects.json"
-export default function projectCard() {
+import JSONData from "../content/All-Projects.json"
+export default function allProjects() {
   return JSONData.content.map((data, index) => {
     return (
       <div
