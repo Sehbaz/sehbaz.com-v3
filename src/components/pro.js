@@ -1,7 +1,9 @@
 import React from "react"
+import "../global/global.css"
+import JSONData from "../content/Fresh-Projects.json"
 import Logo from "../images/gatsby-icon.png"
-import JSONData from "../content/All-Projects.json"
-export default function allProjects() {
+
+export default function projectCard() {
   return JSONData.content.map((data, index) => {
     return (
       <div
@@ -27,7 +29,9 @@ export default function allProjects() {
         >
           <h3 key={`content_item_${index}`}>{data.title}</h3>
           <p style={{ fontFamily: "Roboto" }} key={`content_item_${index}`}>
-            {data.desc}
+            Hello👋🏼, I’m Sehbaz, a front-end developer based in Leicester. I
+            focus on delivering optimal solutions to design and code problems
+            that enhances the user’s experience.
           </p>
           <a
             href={data.url}

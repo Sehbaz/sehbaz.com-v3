@@ -5,16 +5,18 @@ import Layout from "../components/layout"
 import AboutPage from "../components/about"
 import SEO from "../components/seo"
 import ProjectCard from "../components/projectCard"
+import "../global/global.css"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <h5
       style={{
-        padding: `7rem 0rem`,
-        fontSize: `2.5rem`,
+        padding: `5rem 2rem`,
+        fontSize: `1.8rem`,
         lineHeight: `1.5`,
         fontWeight: `bold`,
+        margin: `1rem 0rem`,
       }}
     >
       Hello👋🏼, I’m{" "}
@@ -46,6 +48,7 @@ const IndexPage = () => (
         <h5>See all work</h5>
       </Link>
     </div>
+
     <AboutPage></AboutPage>
   </Layout>
 )
