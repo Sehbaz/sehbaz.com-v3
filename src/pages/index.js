@@ -2,7 +2,6 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import AboutPage from "../components/about"
 import SEO from "../components/seo"
 import ProjectCard from "../components/projectCard"
 import "../global/global.css"
@@ -12,14 +11,15 @@ const IndexPage = () => (
     <SEO title="Home" />
     <h5
       style={{
-        padding: `5rem 2rem`,
-        fontSize: `1.8rem`,
+        padding: `5rem 1.5rem`,
+        fontSize: `1.5rem`,
         lineHeight: `1.5`,
         fontWeight: `bold`,
-        margin: `1rem 0rem`,
+        margin: `2rem 0rem`,
+        fontFamily: `Open Sans`,
       }}
     >
-      Hello👋🏼, I’m{" "}
+      Hello, I’m{" "}
       <span
         style={{
           color: ` #5393fe`,
@@ -33,7 +33,14 @@ const IndexPage = () => (
       <span style={{ color: `#17b1b1` }}> experience</span>.
     </h5>
 
-    <div>
+    <div
+      style={{
+        display: `flex`,
+        justifyContent: `center`,
+        flexDirection: `column`,
+        alignItems: `center`,
+      }}
+    >
       <ProjectCard></ProjectCard>
       <Link
         to="/work"
@@ -45,11 +52,9 @@ const IndexPage = () => (
         }}
       >
         {" "}
-        <h5>See all work</h5>
+        <h5>See more work 🛠</h5>
       </Link>
     </div>
-
-    <AboutPage></AboutPage>
   </Layout>
 )
 

@@ -1,8 +1,8 @@
 {
   "content": [
     {
-      "title": "Simon Game",
-      "desc": "Simple memory game using VanillaJS.",
+      "title": "Weather App",
+      "desc": "This app show weather with top 5 news from techchrunch",
       "url": "https://sehbaz.github.io/Simon-Game/",
       "pic": ""
     },

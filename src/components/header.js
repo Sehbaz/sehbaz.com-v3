@@ -2,15 +2,16 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import "./header.css"
-
+import Logo from "../images/logo.png"
 const Header = () => (
   <header
     style={{
       position: `sticky`,
       top: `0`,
       backgroundColor: `#fff`,
-      padding: `1rem 0`,
+      padding: `1rem 1rem`,
       maxWidth: `960px`,
+      fontFamily: `Open Sans`,
     }}
   >
     <div
@@ -30,30 +31,34 @@ const Header = () => (
         }}
       >
         {" "}
-        <p
+        <img src={Logo} style={{ width: `80px`, margin: `0` }}></img>
+      </Link>
+      <div style={{ display: `flex` }}>
+        <Link
+          to="/work"
           style={{
-            fontFamily: `Roboto`,
+            textDecoration: `none`,
+            color: `black`,
           }}
         >
-          Sehbaz
-        </p>
-      </Link>
-
-      <Link
-        to="/work"
-        style={{
-          textDecoration: `none`,
-          color: `black`,
-        }}
-      >
-        <p
+          <p
+            style={{ margin: `0 1rem`, fontSize: `0.8em`, fontWeight: `bold` }}
+          >
+            Work
+          </p>
+        </Link>
+        <Link
+          to="/about"
           style={{
-            fontFamily: `Roboto`,
+            textDecoration: `none`,
+            color: `black`,
           }}
         >
-          Work
-        </p>
-      </Link>
+          <p style={{ margin: `0`, fontSize: `0.8em`, fontWeight: `bold` }}>
+            About
+          </p>
+        </Link>
+      </div>
     </div>
   </header>
 )
