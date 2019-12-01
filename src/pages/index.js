@@ -50,7 +50,17 @@ const IndexPage = () => (
         }}
       >
         {" "}
-        <h5>See more work 🛠</h5>
+        <button
+          className="btn info"
+          style={{
+            textDecoration: `none`,
+            fontWeight: `bold`,
+            fontFamily: "Helvetica",
+            fontSize: `13px`,
+          }}
+        >
+          See more work 🛠
+        </button>
       </Link>
     </div>
   </Layout>
