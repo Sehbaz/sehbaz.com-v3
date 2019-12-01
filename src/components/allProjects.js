@@ -13,7 +13,7 @@ export default function allProjects() {
           boxShadow: `0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)`,
           marginBottom: `2rem`,
           height: `400px`,
-          fontFamily: `Open Sans`,
+          fontFamily: "Helvetica",
         }}
       >
         <div
@@ -39,7 +39,7 @@ export default function allProjects() {
           }}
         >
           <h3 key={`content_item_${index}`}>{data.title}</h3>
-          <p style={{ fontFamily: "Roboto" }} key={`content_item_${index}`}>
+          <p style={{}} key={`content_item_${index}`}>
             {data.desc}
           </p>
           <a

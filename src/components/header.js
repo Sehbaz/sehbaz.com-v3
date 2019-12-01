@@ -11,7 +11,7 @@ const Header = () => (
       backgroundColor: `#fff`,
       padding: `1rem 1rem`,
       maxWidth: `960px`,
-      fontFamily: `Open Sans`,
+      fontFamily: "Helvetica",
     }}
   >
     <div

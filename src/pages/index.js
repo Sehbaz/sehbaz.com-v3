@@ -9,14 +9,13 @@ import "../global/global.css"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h5
+
+    <h2
       style={{
         padding: `5rem 1.5rem`,
-        fontSize: `1.5rem`,
         lineHeight: `1.5`,
         fontWeight: `bold`,
         margin: `2rem 0rem`,
-        fontFamily: `Open Sans`,
       }}
     >
       Hello, I’m{" "}
@@ -27,11 +26,11 @@ const IndexPage = () => (
       >
         Sehbaz
       </span>
-      , a front-end developer based in{" "}
-      <span style={{ color: `#f46b3f` }}>Leicester</span>. I focus on delivering
+      , a front-end developer based in Leicester . I focus on{" "}
+      <span style={{ color: `#f46b3f` }}>delivering</span>
       optimal solutions to design and code problems that enhances the user’s
       <span style={{ color: `#17b1b1` }}> experience</span>.
-    </h5>
+    </h2>
 
     <div
       style={{
@@ -48,7 +47,6 @@ const IndexPage = () => (
           textDecoration: `none`,
           color: `#5393fe`,
           fontWeight: `bold`,
-          fontFamily: "Roboto",
         }}
       >
         {" "}
