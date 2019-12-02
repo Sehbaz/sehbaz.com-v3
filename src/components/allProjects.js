@@ -1,9 +1,16 @@
 import React from "react"
-import Logo from "../images/gatsby-icon.png"
-import JSONData from "../content/All-Projects.json"
+import DiceappImage from "../images/dice.png"
+import DrumkitImage from "../images/drumkit.png"
+import JournalappImage from "../images/journal.png"
+import NewsIamge from "../images/newsletter.png"
+import PortfolioImage from "../images/portfolio-v1.png"
+import SimonappImage from "../images/simon.png"
+import TindogImage from "../images/tindog.png"
+import TodoImage from "../images/todo.png"
+import WeatherappImage from "../images/weather.png"
 export default function allProjects() {
-  return JSONData.content.map((data, index) => {
-    return (
+  return (
+    <div>
       <div
         className="flex-container"
         style={{
@@ -20,7 +27,7 @@ export default function allProjects() {
           className="project-image"
           style={{
             minWidth: `60%`,
-            padding: `1rem`,
+            padding: `2rem`,
             height: `100%`,
             backgroundColor: `#f1f2f2`,
             display: `flex`,
@@ -28,7 +35,7 @@ export default function allProjects() {
             alignItems: `center`,
           }}
         >
-          <img src={Logo}></img>
+          <img src={WeatherappImage} style={{ margin: `0 ` }}></img>
         </div>
         <div
           className="project-info"
@@ -38,12 +45,12 @@ export default function allProjects() {
             height: `100%`,
           }}
         >
-          <h3 key={`content_item_${index}`}>{data.title}</h3>
-          <p style={{}} key={`content_item_${index}`}>
-            {data.desc}
+          <h3>Weather App</h3>
+          <p style={{ fontFamily: "Helvetica" }}>
+            GIves weather based on location
           </p>
           <a
-            href={data.url}
+            href=""
             style={{
               textDecoration: `none`,
               color: `#5393fe`,
@@ -53,7 +60,7 @@ export default function allProjects() {
             <button class="btn info">Demo</button>
           </a>
           <a
-            href={data.url}
+            href=""
             style={{
               textDecoration: `none`,
               color: `#5393fe`,
@@ -64,6 +71,546 @@ export default function allProjects() {
           </a>
         </div>
       </div>
-    )
-  })
+      <div
+        className="flex-container"
+        style={{
+          justifyContentc: `center`,
+          alignItems: `center`,
+          width: `100%`,
+          boxShadow: `0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)`,
+          marginBottom: `2rem`,
+          height: `400px`,
+          fontFamily: "Helvetica",
+        }}
+      >
+        <div
+          className="project-image"
+          style={{
+            minWidth: `60%`,
+            padding: `2rem`,
+            height: `100%`,
+            backgroundColor: `#f1f2f2`,
+            display: `flex`,
+            justifyContent: `center`,
+            alignItems: `center`,
+          }}
+        >
+          <img src={WeatherappImage} style={{ margin: `0 ` }}></img>
+        </div>
+        <div
+          className="project-info"
+          style={{
+            minWidth: `40%`,
+            padding: `1rem`,
+            height: `100%`,
+          }}
+        >
+          <h3>Weather App</h3>
+          <p style={{ fontFamily: "Helvetica" }}>
+            GIves weather based on location
+          </p>
+          <a
+            href=""
+            style={{
+              textDecoration: `none`,
+              color: `#5393fe`,
+              fontWeight: `bold`,
+            }}
+          >
+            <button class="btn info">Demo</button>
+          </a>
+          <a
+            href=""
+            style={{
+              textDecoration: `none`,
+              color: `#5393fe`,
+              fontWeight: `bold`,
+            }}
+          >
+            <button class="btn default">Github</button>
+          </a>
+        </div>
+      </div>
+      <div
+        className="flex-container"
+        style={{
+          justifyContentc: `center`,
+          alignItems: `center`,
+          width: `100%`,
+          boxShadow: `0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)`,
+          marginBottom: `2rem`,
+          height: `400px`,
+          fontFamily: "Helvetica",
+        }}
+      >
+        <div
+          className="project-image"
+          style={{
+            minWidth: `60%`,
+            padding: `2rem`,
+            height: `100%`,
+            backgroundColor: `#f1f2f2`,
+            display: `flex`,
+            justifyContent: `center`,
+            alignItems: `center`,
+          }}
+        >
+          <img src={WeatherappImage} style={{ margin: `0 ` }}></img>
+        </div>
+        <div
+          className="project-info"
+          style={{
+            minWidth: `40%`,
+            padding: `1rem`,
+            height: `100%`,
+          }}
+        >
+          <h3>Weather App</h3>
+          <p style={{ fontFamily: "Helvetica" }}>
+            GIves weather based on location
+          </p>
+          <a
+            href=""
+            style={{
+              textDecoration: `none`,
+              color: `#5393fe`,
+              fontWeight: `bold`,
+            }}
+          >
+            <button class="btn info">Demo</button>
+          </a>
+          <a
+            href=""
+            style={{
+              textDecoration: `none`,
+              color: `#5393fe`,
+              fontWeight: `bold`,
+            }}
+          >
+            <button class="btn default">Github</button>
+          </a>
+        </div>
+      </div>
+      <div
+        className="flex-container"
+        style={{
+          justifyContentc: `center`,
+          alignItems: `center`,
+          width: `100%`,
+          boxShadow: `0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)`,
+          marginBottom: `2rem`,
+          height: `400px`,
+          fontFamily: "Helvetica",
+        }}
+      >
+        <div
+          className="project-image"
+          style={{
+            minWidth: `60%`,
+            padding: `2rem`,
+            height: `100%`,
+            backgroundColor: `#f1f2f2`,
+            display: `flex`,
+            justifyContent: `center`,
+            alignItems: `center`,
+          }}
+        >
+          <img src={WeatherappImage} style={{ margin: `0 ` }}></img>
+        </div>
+        <div
+          className="project-info"
+          style={{
+            minWidth: `40%`,
+            padding: `1rem`,
+            height: `100%`,
+          }}
+        >
+          <h3>Weather App</h3>
+          <p style={{ fontFamily: "Helvetica" }}>
+            GIves weather based on location
+          </p>
+          <a
+            href=""
+            style={{
+              textDecoration: `none`,
+              color: `#5393fe`,
+              fontWeight: `bold`,
+            }}
+          >
+            <button class="btn info">Demo</button>
+          </a>
+          <a
+            href=""
+            style={{
+              textDecoration: `none`,
+              color: `#5393fe`,
+              fontWeight: `bold`,
+            }}
+          >
+            <button class="btn default">Github</button>
+          </a>
+        </div>
+      </div>
+      <div
+        className="flex-container"
+        style={{
+          justifyContentc: `center`,
+          alignItems: `center`,
+          width: `100%`,
+          boxShadow: `0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)`,
+          marginBottom: `2rem`,
+          height: `400px`,
+          fontFamily: "Helvetica",
+        }}
+      >
+        <div
+          className="project-image"
+          style={{
+            minWidth: `60%`,
+            padding: `2rem`,
+            height: `100%`,
+            backgroundColor: `#f1f2f2`,
+            display: `flex`,
+            justifyContent: `center`,
+            alignItems: `center`,
+          }}
+        >
+          <img src={WeatherappImage} style={{ margin: `0 ` }}></img>
+        </div>
+        <div
+          className="project-info"
+          style={{
+            minWidth: `40%`,
+            padding: `1rem`,
+            height: `100%`,
+          }}
+        >
+          <h3>Weather App</h3>
+          <p style={{ fontFamily: "Helvetica" }}>
+            GIves weather based on location
+          </p>
+          <a
+            href=""
+            style={{
+              textDecoration: `none`,
+              color: `#5393fe`,
+              fontWeight: `bold`,
+            }}
+          >
+            <button class="btn info">Demo</button>
+          </a>
+          <a
+            href=""
+            style={{
+              textDecoration: `none`,
+              color: `#5393fe`,
+              fontWeight: `bold`,
+            }}
+          >
+            <button class="btn default">Github</button>
+          </a>
+        </div>
+      </div>
+      <div
+        className="flex-container"
+        style={{
+          justifyContentc: `center`,
+          alignItems: `center`,
+          width: `100%`,
+          boxShadow: `0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)`,
+          marginBottom: `2rem`,
+          height: `400px`,
+          fontFamily: "Helvetica",
+        }}
+      >
+        <div
+          className="project-image"
+          style={{
+            minWidth: `60%`,
+            padding: `2rem`,
+            height: `100%`,
+            backgroundColor: `#f1f2f2`,
+            display: `flex`,
+            justifyContent: `center`,
+            alignItems: `center`,
+          }}
+        >
+          <img src={WeatherappImage} style={{ margin: `0 ` }}></img>
+        </div>
+        <div
+          className="project-info"
+          style={{
+            minWidth: `40%`,
+            padding: `1rem`,
+            height: `100%`,
+          }}
+        >
+          <h3>Weather App</h3>
+          <p style={{ fontFamily: "Helvetica" }}>
+            GIves weather based on location
+          </p>
+          <a
+            href=""
+            style={{
+              textDecoration: `none`,
+              color: `#5393fe`,
+              fontWeight: `bold`,
+            }}
+          >
+            <button class="btn info">Demo</button>
+          </a>
+          <a
+            href=""
+            style={{
+              textDecoration: `none`,
+              color: `#5393fe`,
+              fontWeight: `bold`,
+            }}
+          >
+            <button class="btn default">Github</button>
+          </a>
+        </div>
+      </div>
+      <div
+        className="flex-container"
+        style={{
+          justifyContentc: `center`,
+          alignItems: `center`,
+          width: `100%`,
+          boxShadow: `0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)`,
+          marginBottom: `2rem`,
+          height: `400px`,
+          fontFamily: "Helvetica",
+        }}
+      >
+        <div
+          className="project-image"
+          style={{
+            minWidth: `60%`,
+            padding: `2rem`,
+            height: `100%`,
+            backgroundColor: `#f1f2f2`,
+            display: `flex`,
+            justifyContent: `center`,
+            alignItems: `center`,
+          }}
+        >
+          <img src={WeatherappImage} style={{ margin: `0 ` }}></img>
+        </div>
+        <div
+          className="project-info"
+          style={{
+            minWidth: `40%`,
+            padding: `1rem`,
+            height: `100%`,
+          }}
+        >
+          <h3>Weather App</h3>
+          <p style={{ fontFamily: "Helvetica" }}>
+            GIves weather based on location
+          </p>
+          <a
+            href=""
+            style={{
+              textDecoration: `none`,
+              color: `#5393fe`,
+              fontWeight: `bold`,
+            }}
+          >
+            <button class="btn info">Demo</button>
+          </a>
+          <a
+            href=""
+            style={{
+              textDecoration: `none`,
+              color: `#5393fe`,
+              fontWeight: `bold`,
+            }}
+          >
+            <button class="btn default">Github</button>
+          </a>
+        </div>
+      </div>
+      <div
+        className="flex-container"
+        style={{
+          justifyContentc: `center`,
+          alignItems: `center`,
+          width: `100%`,
+          boxShadow: `0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)`,
+          marginBottom: `2rem`,
+          height: `400px`,
+          fontFamily: "Helvetica",
+        }}
+      >
+        <div
+          className="project-image"
+          style={{
+            minWidth: `60%`,
+            padding: `2rem`,
+            height: `100%`,
+            backgroundColor: `#f1f2f2`,
+            display: `flex`,
+            justifyContent: `center`,
+            alignItems: `center`,
+          }}
+        >
+          <img src={WeatherappImage} style={{ margin: `0 ` }}></img>
+        </div>
+        <div
+          className="project-info"
+          style={{
+            minWidth: `40%`,
+            padding: `1rem`,
+            height: `100%`,
+          }}
+        >
+          <h3>Weather App</h3>
+          <p style={{ fontFamily: "Helvetica" }}>
+            GIves weather based on location
+          </p>
+          <a
+            href=""
+            style={{
+              textDecoration: `none`,
+              color: `#5393fe`,
+              fontWeight: `bold`,
+            }}
+          >
+            <button class="btn info">Demo</button>
+          </a>
+          <a
+            href=""
+            style={{
+              textDecoration: `none`,
+              color: `#5393fe`,
+              fontWeight: `bold`,
+            }}
+          >
+            <button class="btn default">Github</button>
+          </a>
+        </div>
+      </div>
+      <div
+        className="flex-container"
+        style={{
+          justifyContentc: `center`,
+          alignItems: `center`,
+          width: `100%`,
+          boxShadow: `0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)`,
+          marginBottom: `2rem`,
+          height: `400px`,
+          fontFamily: "Helvetica",
+        }}
+      >
+        <div
+          className="project-image"
+          style={{
+            minWidth: `60%`,
+            padding: `2rem`,
+            height: `100%`,
+            backgroundColor: `#f1f2f2`,
+            display: `flex`,
+            justifyContent: `center`,
+            alignItems: `center`,
+          }}
+        >
+          <img src={WeatherappImage} style={{ margin: `0 ` }}></img>
+        </div>
+        <div
+          className="project-info"
+          style={{
+            minWidth: `40%`,
+            padding: `1rem`,
+            height: `100%`,
+          }}
+        >
+          <h3>Weather App</h3>
+          <p style={{ fontFamily: "Helvetica" }}>
+            GIves weather based on location
+          </p>
+          <a
+            href=""
+            style={{
+              textDecoration: `none`,
+              color: `#5393fe`,
+              fontWeight: `bold`,
+            }}
+          >
+            <button class="btn info">Demo</button>
+          </a>
+          <a
+            href=""
+            style={{
+              textDecoration: `none`,
+              color: `#5393fe`,
+              fontWeight: `bold`,
+            }}
+          >
+            <button class="btn default">Github</button>
+          </a>
+        </div>
+      </div>
+      <div
+        className="flex-container"
+        style={{
+          justifyContentc: `center`,
+          alignItems: `center`,
+          width: `100%`,
+          boxShadow: `0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)`,
+          marginBottom: `2rem`,
+          height: `400px`,
+          fontFamily: "Helvetica",
+        }}
+      >
+        <div
+          className="project-image"
+          style={{
+            minWidth: `60%`,
+            padding: `2rem`,
+            height: `100%`,
+            backgroundColor: `#f1f2f2`,
+            display: `flex`,
+            justifyContent: `center`,
+            alignItems: `center`,
+          }}
+        >
+          <img src={PortfolioImage} style={{ margin: `0 ` }}></img>
+        </div>
+        <div
+          className="project-info"
+          style={{
+            minWidth: `40%`,
+            padding: `1rem`,
+            height: `100%`,
+          }}
+        >
+          <h3>Weather App</h3>
+          <p style={{ fontFamily: "Helvetica" }}>
+            GIves weather based on location
+          </p>
+          <a
+            href=""
+            style={{
+              textDecoration: `none`,
+              color: `#5393fe`,
+              fontWeight: `bold`,
+            }}
+          >
+            <button class="btn info">Demo</button>
+          </a>
+          <a
+            href=""
+            style={{
+              textDecoration: `none`,
+              color: `#5393fe`,
+              fontWeight: `bold`,
+            }}
+          >
+            <button class="btn default">Github</button>
+          </a>
+        </div>
+      </div>
+    </div>
+  )
 }

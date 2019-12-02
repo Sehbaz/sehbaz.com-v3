@@ -13,9 +13,10 @@ const IndexPage = () => (
     <h2
       style={{
         padding: `5rem 1.5rem`,
-        lineHeight: `1.5`,
+        lineHeight: `1.2`,
         fontWeight: `bold`,
         margin: `2rem 0rem`,
+        fontSize: `2.2rem`,
       }}
     >
       Hello, I’m{" "}
@@ -26,8 +27,8 @@ const IndexPage = () => (
       >
         Sehbaz
       </span>
-      , a front-end developer based in Leicester . I focus on{" "}
-      <span style={{ color: `#f46b3f` }}>delivering</span>
+      , a front-end developer based in Leicester. I focus on{" "}
+      <span style={{ color: `#f46b3f` }}>delivering </span>
       optimal solutions to design and code problems that enhances the user’s
       <span style={{ color: `#17b1b1` }}> experience</span>.
     </h2>
