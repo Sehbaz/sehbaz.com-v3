@@ -18,8 +18,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Sehbaz Rafik`,
+        short_name: `Sehbaz Rafik`,
         start_url: `/`,
         background_color: `black`,
         theme_color: `#black`,
