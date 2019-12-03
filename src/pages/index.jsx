@@ -8,7 +8,7 @@ import "../global/global.css"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Sehbaz Rafik" />
 
     <h2
       style={{

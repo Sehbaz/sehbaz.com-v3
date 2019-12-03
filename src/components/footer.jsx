@@ -1,10 +1,11 @@
 import React from "react"
 import { Link } from "gatsby"
 import Logo from "../images/logo.png"
+import FooterLogo from "../images/footer-logo.png"
 const Footer = () => (
   <footer
     style={{
-      padding: `5rem 0 0 0`,
+      paddingTop: `7rem`,
       maxWidth: `960px`,
       fontFamily: "Helvetica",
       display: `flex`,
@@ -29,6 +30,7 @@ const Footer = () => (
     <p style={{ fontSize: `12px`, color: `#747d8c` }}>
       © 2019 — Designed & developed by Sehbaz Rafik
     </p>
+    <img src={FooterLogo} style={{ width: `30px`, margin: `0` }}></img>{" "}
   </footer>
 )
 

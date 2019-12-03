@@ -7,10 +7,10 @@ import Footer from "../components/footer"
 
 const AboutPage = () => (
   <Layout>
-    <SEO title="Page two" />
-    <h1>Hi from the second page</h1>
-    <p>Welcome to page 2</p>
-    <Link to="/">Go back to the homepage</Link>
+    <div>
+      <h1 style={{ paddingTop: `2rem` }}>About</h1>
+    </div>
+
     <Footer></Footer>
   </Layout>
 )
