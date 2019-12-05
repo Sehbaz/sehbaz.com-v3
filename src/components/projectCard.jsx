@@ -42,9 +42,6 @@ export default function projectCard() {
           }}
         >
           <h3>Weather App</h3>
-          <p style={{ fontFamily: "Helvetica" }}>
-            GIves weather based on location
-          </p>
           <a
             href=""
             style={{
@@ -65,6 +62,17 @@ export default function projectCard() {
           >
             <button class="btn default">Github</button>
           </a>
+          <p style={{ fontFamily: "Helvetica" }}>
+            Lorem ipsum is placeholder text commonly used in the graphic, print,
+            and publishing industries for previewing layouts and visual mockups.
+          </p>
+          <h5>Tools</h5>
+          <button class=" toolsbtn " disabled>
+            React JS
+          </button>{" "}
+          <button class=" toolsbtn " disabled>
+            HTML
+          </button>{" "}
         </div>
       </div>
       <div

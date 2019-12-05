@@ -7,6 +7,7 @@ import Footer from "../components/footer"
 
 const AboutPage = () => (
   <Layout>
+    <SEO title="About me" />
     <div style={{ fontFamily: `Helvetica`, height: `60vh` }}>
       <h1 style={{ paddingTop: `2rem` }}>About</h1>
       <p>
@@ -25,6 +26,47 @@ const AboutPage = () => (
         I am an active contributor to open source projects, and I am a member of
         the LeicesterJS meetup group.
       </p>
+      <a
+        href="mailto:sehbazm@gmail.com"
+        style={{
+          textDecoration: `none`,
+          color: `#5393fe`,
+          fontWeight: `bold`,
+        }}
+      >
+        <button class="btn info">Email</button>
+      </a>
+      <a
+        href="https://twitter.com/Sehbazrafik"
+        style={{
+          textDecoration: `none`,
+          color: `#5393fe`,
+          fontWeight: `bold`,
+        }}
+      >
+        <button class="btn info">Twitter</button>
+      </a>
+      <a
+        href="https://www.linkedin.com/in/sehbazrafik/"
+        style={{
+          textDecoration: `none`,
+          color: `#5393fe`,
+          fontWeight: `bold`,
+        }}
+      >
+        <button class="btn info">LinkedIn</button>
+      </a>
+
+      <a
+        href="https://github.com/Sehbaz"
+        style={{
+          textDecoration: `none`,
+          color: `#5393fe`,
+          fontWeight: `bold`,
+        }}
+      >
+        <button class="btn info">GitHub</button>
+      </a>
     </div>
 
     <Footer></Footer>
