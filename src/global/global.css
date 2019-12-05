@@ -9,6 +9,9 @@
 }
 .index-main {
 }
+.project-image {
+  min-height: 500px;
+}
 .btn {
   border: 2px solid black;
   background-color: white;
@@ -52,6 +55,9 @@
   }
   .project-image {
     width: 100%;
+    min-height: 100%;
+
+    border: 1px solid red;
   }
   .project-image > img {
     padding: 0;

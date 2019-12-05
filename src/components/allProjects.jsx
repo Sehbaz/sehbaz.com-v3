@@ -31,7 +31,7 @@ export default function allProjects() {
           style={{
             minWidth: `60%`,
             padding: `2rem`,
-            height: `100%`,
+
             backgroundColor: `#f1f2f2`,
             display: `flex`,
             justifyContent: `center`,
@@ -50,7 +50,7 @@ export default function allProjects() {
         >
           <h3>Weather App</h3>
           <a
-            href=""
+            href="https://weather-app-s1101.netlify.com/"
             style={{
               textDecoration: `none`,
               color: `#5393fe`,
@@ -60,36 +60,52 @@ export default function allProjects() {
             <button class="btn info">Demo</button>
           </a>
           <a
-            href=""
+            href="https://github.com/Sehbaz/weather-app"
             style={{
               textDecoration: `none`,
               color: `#5393fe`,
               fontWeight: `bold`,
             }}
           >
-            <button class="btn default ">GitHub</button>
+            <button class="btn default">Github</button>
           </a>
           <p style={{ fontFamily: "Helvetica" }}>
-            GIves weather based on location
+            I wanted to play around ReactJS, so I made this simple project which
+            fetch the weather of the entered location and not only it shows the
+            current weather but also the top five news from an American online
+            publisher TechCrunch. Openweathermap and techcrunch api are used to
+            fetch the real time data. One of the projects I'm most proud of.
           </p>
           <h5>Tools</h5>
           <div>
             <button class=" toolsbtn " disabled>
-              React JS
+              REACTJS
             </button>{" "}
+            <button class=" toolsbtn " disabled>
+              OPERNWEATHERMAP
+            </button>
+            <button class=" toolsbtn " disabled>
+              GATSBY
+            </button>
+            <button class=" toolsbtn " disabled>
+              NETLIFY
+            </button>
+            <button class=" toolsbtn " disabled>
+              API
+            </button>
+            <button class=" toolsbtn " disabled>
+              TECHCRUNCH
+            </button>
             <button class=" toolsbtn " disabled>
               HTML
             </button>{" "}
             <button class=" toolsbtn " disabled>
-              HTML
+              JS
             </button>{" "}
             <button class=" toolsbtn " disabled>
               CSS
             </button>
           </div>
-          <button class=" toolsbtn " disabled>
-            React JS
-          </button>
         </div>
       </div>
       {/* Porfolio app */}
@@ -146,29 +162,38 @@ export default function allProjects() {
               fontWeight: `bold`,
             }}
           >
-            <button class="btn default ">GitHub</button>
+            <button class="btn default">Github</button>
           </a>
           <p style={{ fontFamily: "Helvetica" }}>
-            GIves weather based on location
+            I wanted something fast and with good SEO for my portfolio, so a
+            static website generator like Gatsby seemed like the best fit. I
+            have made my portfolio site an open source so this may inspire to
+            junior developer.
           </p>
           <h5>Tools</h5>
           <div>
             <button class=" toolsbtn " disabled>
-              React JS
+              REACTJS
             </button>{" "}
+            <button class=" toolsbtn " disabled>
+              GATSBY
+            </button>
+            <button class=" toolsbtn " disabled>
+              NETLIFY
+            </button>
+            <button class=" toolsbtn " disabled>
+              ADOBEXD
+            </button>
             <button class=" toolsbtn " disabled>
               HTML
             </button>{" "}
             <button class=" toolsbtn " disabled>
-              HTML
+              JS
             </button>{" "}
             <button class=" toolsbtn " disabled>
               CSS
             </button>
           </div>
-          <button class=" toolsbtn " disabled>
-            React JS
-          </button>
         </div>
       </div>
       {/* Simon app app */}
@@ -228,26 +253,25 @@ export default function allProjects() {
             <button class="btn default ">GitHub</button>
           </a>
           <p style={{ fontFamily: "Helvetica" }}>
-            GIves weather based on location
+            Simple memory game using VanillaJS. This game is fun to play and
+            improve your memory as well. Developing this game I have learn how
+            data can be handled temporary and manage user interaction.
           </p>
           <h5>Tools</h5>
           <div>
             <button class=" toolsbtn " disabled>
-              React JS
+              JQUERY
             </button>{" "}
             <button class=" toolsbtn " disabled>
               HTML
             </button>{" "}
             <button class=" toolsbtn " disabled>
-              HTML
+              JS
             </button>{" "}
             <button class=" toolsbtn " disabled>
               CSS
             </button>
           </div>
-          <button class=" toolsbtn " disabled>
-            React JS
-          </button>
         </div>
       </div>
       <div
@@ -306,15 +330,15 @@ export default function allProjects() {
             <button class="btn default ">Github</button>
           </a>
           <p style={{ fontFamily: "Helvetica" }}>
-            GIves weather based on location
+            A simple app made using backend mailchimp API.
           </p>
           <h5>Tools</h5>
           <div>
             <button class=" toolsbtn " disabled>
-              React JS
+              MAILCHIMP
             </button>{" "}
             <button class=" toolsbtn " disabled>
-              HTML
+              JS
             </button>{" "}
             <button class=" toolsbtn " disabled>
               HTML
@@ -322,10 +346,10 @@ export default function allProjects() {
             <button class=" toolsbtn " disabled>
               CSS
             </button>
+            <button class=" toolsbtn " disabled>
+              BOOTSTRAP
+            </button>
           </div>
-          <button class=" toolsbtn " disabled>
-            React JS
-          </button>
         </div>
       </div>
       <div
@@ -384,26 +408,28 @@ export default function allProjects() {
             <button class="btn default ">GitHub</button>
           </a>
           <p style={{ fontFamily: "Helvetica" }}>
-            GIves weather based on location
+            Simple dice game made in VanillaJS. To play this game your need to
+            refresh the browser, this will trigger code and it will predict the
+            winner. Fun to play!
           </p>
           <h5>Tools</h5>
           <div>
             <button class=" toolsbtn " disabled>
-              React JS
+              DOM
             </button>{" "}
             <button class=" toolsbtn " disabled>
               HTML
             </button>{" "}
             <button class=" toolsbtn " disabled>
-              HTML
+              HEROKU
             </button>{" "}
             <button class=" toolsbtn " disabled>
               CSS
             </button>
+            <button class=" toolsbtn " disabled>
+              JS
+            </button>
           </div>
-          <button class=" toolsbtn " disabled>
-            React JS
-          </button>
         </div>
       </div>
       <div
@@ -462,15 +488,16 @@ export default function allProjects() {
             <button class="btn default ">GitHub</button>
           </a>
           <p style={{ fontFamily: "Helvetica" }}>
-            GIves weather based on location
+            Play sound on key pressed and mouse clicked based on pure JS. This
+            is the simple project to understand the power of JS.
           </p>
           <h5>Tools</h5>
           <div>
             <button class=" toolsbtn " disabled>
-              React JS
+              DOM
             </button>{" "}
             <button class=" toolsbtn " disabled>
-              HTML
+              JS
             </button>{" "}
             <button class=" toolsbtn " disabled>
               HTML
@@ -479,9 +506,6 @@ export default function allProjects() {
               CSS
             </button>
           </div>
-          <button class=" toolsbtn " disabled>
-            React JS
-          </button>
         </div>
       </div>
       <div
@@ -540,16 +564,12 @@ export default function allProjects() {
             <button class="btn default ">GitHub</button>
           </a>
           <p style={{ fontFamily: "Helvetica" }}>
-            GIves weather based on location
+            Simple HTML and CSS website. The power of CSS. This website is
+            reponsive on any of the screen size. It was amazing doing this
+            project to learn the modern app development designs.
           </p>
           <h5>Tools</h5>
           <div>
-            <button class=" toolsbtn " disabled>
-              React JS
-            </button>{" "}
-            <button class=" toolsbtn " disabled>
-              HTML
-            </button>{" "}
             <button class=" toolsbtn " disabled>
               HTML
             </button>{" "}
@@ -557,9 +577,6 @@ export default function allProjects() {
               CSS
             </button>
           </div>
-          <button class=" toolsbtn " disabled>
-            React JS
-          </button>
         </div>
       </div>
       <div
@@ -618,26 +635,28 @@ export default function allProjects() {
             <button class="btn default ">GitHub</button>
           </a>
           <p style={{ fontFamily: "Helvetica" }}>
-            GIves weather based on location
+            A todo app uses mongoDB to save the data and express as an
+            middleware. The app is build on EJS, it is a simple templating
+            language that lets you generate HTML markup with plain JavaScript.
           </p>
           <h5>Tools</h5>
           <div>
             <button class=" toolsbtn " disabled>
-              React JS
+              EJS
             </button>{" "}
             <button class=" toolsbtn " disabled>
               HTML
             </button>{" "}
             <button class=" toolsbtn " disabled>
-              HTML
+              JS
             </button>{" "}
             <button class=" toolsbtn " disabled>
               CSS
             </button>
+            <button class=" toolsbtn " disabled>
+              MONGODB
+            </button>
           </div>
-          <button class=" toolsbtn " disabled>
-            React JS
-          </button>
         </div>
       </div>
       <div
@@ -696,26 +715,31 @@ export default function allProjects() {
             <button class="btn default ">GitHub</button>
           </a>
           <p style={{ fontFamily: "Helvetica" }}>
-            GIves weather based on location
+            A diary application build using JavaScript, ExpressJS, EJS and
+            MongoDB. I was excited to learn all the things across the project as
+            it perform CRUD operations.
           </p>
           <h5>Tools</h5>
           <div>
             <button class=" toolsbtn " disabled>
-              React JS
+              EJS
             </button>{" "}
             <button class=" toolsbtn " disabled>
               HTML
             </button>{" "}
             <button class=" toolsbtn " disabled>
-              HTML
+              JS
             </button>{" "}
             <button class=" toolsbtn " disabled>
               CSS
             </button>
+            <button class=" toolsbtn " disabled>
+              EXPRESS JS
+            </button>
+            <button class=" toolsbtn " disabled>
+              MONGODB
+            </button>
           </div>
-          <button class=" toolsbtn " disabled>
-            React JS
-          </button>
         </div>
       </div>
       <div
@@ -773,26 +797,30 @@ export default function allProjects() {
             <button class="btn default ">Github</button>
           </a>
           <p style={{ fontFamily: "Helvetica" }}>
-            GIves weather based on location
+            The portfolio version 1.0 this was my initial design for portfolio
+            but later after experinting some of the other layouts I have updated
+            my portfolio with that design. But this design was challenging to
+            build and learned a lot as this project is one of my initial
+            projects.
           </p>
           <h5>Tools</h5>
           <div>
             <button class=" toolsbtn " disabled>
-              React JS
+              EJS
             </button>{" "}
             <button class=" toolsbtn " disabled>
               HTML
             </button>{" "}
             <button class=" toolsbtn " disabled>
-              HTML
+              JS
             </button>{" "}
             <button class=" toolsbtn " disabled>
               CSS
             </button>
+            <button class=" toolsbtn " disabled>
+              RESPONSIVE
+            </button>
           </div>
-          <button class=" toolsbtn " disabled>
-            React JS
-          </button>
         </div>
       </div>
     </div>

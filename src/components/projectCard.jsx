@@ -13,6 +13,7 @@ export default function projectCard() {
           justifyContentc: `center`,
           alignItems: `center`,
           width: `100%`,
+
           boxShadow: `0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)`,
           marginBottom: `2rem`,
           fontFamily: "Helvetica",
@@ -23,7 +24,7 @@ export default function projectCard() {
           style={{
             minWidth: `60%`,
             padding: `2rem`,
-            height: `100%`,
+
             backgroundColor: `#f1f2f2`,
             display: `flex`,
             justifyContent: `center`,
@@ -42,7 +43,7 @@ export default function projectCard() {
         >
           <h3>Weather App</h3>
           <a
-            href=""
+            href="https://weather-app-s1101.netlify.com/"
             style={{
               textDecoration: `none`,
               color: `#5393fe`,
@@ -52,7 +53,7 @@ export default function projectCard() {
             <button class="btn info">Demo</button>
           </a>
           <a
-            href=""
+            href="https://github.com/Sehbaz/weather-app"
             style={{
               textDecoration: `none`,
               color: `#5393fe`,
@@ -62,16 +63,40 @@ export default function projectCard() {
             <button class="btn default">Github</button>
           </a>
           <p style={{ fontFamily: "Helvetica" }}>
-            Lorem ipsum is placeholder text commonly used in the graphic, print,
-            and publishing industries for previewing layouts and visual mockups.
+            I wanted to play around ReactJS, so I made this simple project which
+            fetch the weather of the entered location and not only it shows the
+            current weather but also the top five news from an American online
+            publisher TechCrunch. Openweathermap and techcrunch api are used to
+            fetch the real time data. One of the projects I'm most proud of.
           </p>
           <h5>Tools</h5>
           <button class=" toolsbtn " disabled>
-            React JS
+            REACTJS
           </button>{" "}
+          <button class=" toolsbtn " disabled>
+            OPERNWEATHERMAP
+          </button>
+          <button class=" toolsbtn " disabled>
+            GATSBY
+          </button>
+          <button class=" toolsbtn " disabled>
+            NETLIFY
+          </button>
+          <button class=" toolsbtn " disabled>
+            API
+          </button>
+          <button class=" toolsbtn " disabled>
+            TECHCRUNCH
+          </button>
           <button class=" toolsbtn " disabled>
             HTML
           </button>{" "}
+          <button class=" toolsbtn " disabled>
+            JS
+          </button>{" "}
+          <button class=" toolsbtn " disabled>
+            CSS
+          </button>
         </div>
       </div>
       <div
@@ -107,9 +132,9 @@ export default function projectCard() {
             height: `100%`,
           }}
         >
-          <h3>Weather App</h3>
+          <h3>Portfolio - this site</h3>
           <a
-            href=""
+            href="https://www.sehbaz.com/"
             style={{
               textDecoration: `none`,
               color: `#5393fe`,
@@ -119,7 +144,7 @@ export default function projectCard() {
             <button class="btn info">Demo</button>
           </a>
           <a
-            href=""
+            href="https://github.com/Sehbaz/sehbaz.com-v3"
             style={{
               textDecoration: `none`,
               color: `#5393fe`,
@@ -129,16 +154,33 @@ export default function projectCard() {
             <button class="btn default">Github</button>
           </a>
           <p style={{ fontFamily: "Helvetica" }}>
-            Lorem ipsum is placeholder text commonly used in the graphic, print,
-            and publishing industries for previewing layouts and visual mockups.
+            I wanted something fast and with good SEO for my portfolio, so a
+            static website generator like Gatsby seemed like the best fit. I
+            have made my portfolio site an open source so this may inspire to
+            junior developer.
           </p>
           <h5>Tools</h5>
           <button class=" toolsbtn " disabled>
-            React JS
+            REACTJS
           </button>{" "}
+          <button class=" toolsbtn " disabled>
+            GATSBY
+          </button>
+          <button class=" toolsbtn " disabled>
+            NETLIFY
+          </button>
+          <button class=" toolsbtn " disabled>
+            ADOBEXD
+          </button>
           <button class=" toolsbtn " disabled>
             HTML
           </button>{" "}
+          <button class=" toolsbtn " disabled>
+            JS
+          </button>{" "}
+          <button class=" toolsbtn " disabled>
+            CSS
+          </button>
         </div>
       </div>
     </div>
