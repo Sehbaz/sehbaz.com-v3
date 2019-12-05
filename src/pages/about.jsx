@@ -8,7 +8,13 @@ import Footer from "../components/footer"
 const AboutPage = () => (
   <Layout>
     <SEO title="About me" />
-    <div style={{ fontFamily: `Helvetica`, height: `60vh` }}>
+    <div
+      style={{
+        fontFamily: `Helvetica`,
+        height: `60vh`,
+        marginBottom: `4rem`,
+      }}
+    >
       <h1 style={{ paddingTop: `2rem` }}>About</h1>
       <p>
         I am Sehbaz Rafik a developer 🛠 who is keen and passionate about
