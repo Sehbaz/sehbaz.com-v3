@@ -8,6 +8,8 @@ import SimonappImage from "../images/simon.png"
 import TindogImage from "../images/tindog.png"
 import TodoImage from "../images/todo.png"
 import WeatherappImage from "../images/weather.png"
+
+import NewPortfolioImage from "../images/sehbaz-v3.png"
 export default function allProjects() {
   return (
     <div>
@@ -115,7 +117,7 @@ export default function allProjects() {
             alignItems: `center`,
           }}
         >
-          <img src={PortfolioImage} style={{ margin: `0 ` }}></img>
+          <img src={NewPortfolioImage} style={{ margin: `0 ` }}></img>
         </div>
         <div
           className="project-info"

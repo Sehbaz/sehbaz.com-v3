@@ -1,7 +1,7 @@
 import React from "react"
 
 import "../global/global.css"
-import PortfolioImage from "../images/portfolio-v1.png"
+import PortfolioImage from "../images/sehbaz-v3.png"
 import WeatherappImage from "../images/weather.png"
 
 export default function projectCard() {
@@ -97,7 +97,7 @@ export default function projectCard() {
             alignItems: `center`,
           }}
         >
-          <img src={WeatherappImage} style={{ margin: `0 ` }}></img>
+          <img src={PortfolioImage} style={{ margin: `0 ` }}></img>
         </div>
         <div
           className="project-info"
