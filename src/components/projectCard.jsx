@@ -15,7 +15,6 @@ export default function projectCard() {
           width: `100%`,
           boxShadow: `0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)`,
           marginBottom: `2rem`,
-          height: `400px`,
           fontFamily: "Helvetica",
         }}
       >
@@ -83,7 +82,6 @@ export default function projectCard() {
           width: `100%`,
           boxShadow: `0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)`,
           marginBottom: `2rem`,
-          height: `400px`,
           fontFamily: "Helvetica",
         }}
       >
@@ -99,7 +97,7 @@ export default function projectCard() {
             alignItems: `center`,
           }}
         >
-          <img src={PortfolioImage} style={{ margin: `0 ` }}></img>
+          <img src={WeatherappImage} style={{ margin: `0 ` }}></img>
         </div>
         <div
           className="project-info"
@@ -110,9 +108,6 @@ export default function projectCard() {
           }}
         >
           <h3>Weather App</h3>
-          <p style={{ fontFamily: "Helvetica" }}>
-            GIves weather based on location
-          </p>
           <a
             href=""
             style={{
@@ -133,6 +128,17 @@ export default function projectCard() {
           >
             <button class="btn default">Github</button>
           </a>
+          <p style={{ fontFamily: "Helvetica" }}>
+            Lorem ipsum is placeholder text commonly used in the graphic, print,
+            and publishing industries for previewing layouts and visual mockups.
+          </p>
+          <h5>Tools</h5>
+          <button class=" toolsbtn " disabled>
+            React JS
+          </button>{" "}
+          <button class=" toolsbtn " disabled>
+            HTML
+          </button>{" "}
         </div>
       </div>
     </div>
