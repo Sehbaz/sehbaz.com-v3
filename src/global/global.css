@@ -56,8 +56,6 @@
   .project-image {
     width: 100%;
     min-height: 100%;
-
-    border: 1px solid red;
   }
   .project-image > img {
     padding: 0;
