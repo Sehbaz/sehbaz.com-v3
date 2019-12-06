@@ -25,12 +25,17 @@ const Footer = () => (
       <img
         src={Logo}
         style={{ width: `60px`, margin: `0`, paddingBottom: `1rem` }}
+        alt="Footer title logo"
       ></img>{" "}
     </Link>
     <p style={{ fontSize: `12px`, color: `#747d8c` }}>
       © 2019 — Designed & developed by Sehbaz Rafik
     </p>
-    <img src={FooterLogo} style={{ width: `30px`, margin: `0` }}></img>{" "}
+    <img
+      src={FooterLogo}
+      style={{ width: `30px`, margin: `0` }}
+      alt="Pet"
+    ></img>{" "}
   </footer>
 )
 

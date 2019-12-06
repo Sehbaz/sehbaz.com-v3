@@ -22,7 +22,6 @@ export default function allProjects() {
           width: `100%`,
           boxShadow: `0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)`,
           marginBottom: `2rem`,
-
           fontFamily: "Helvetica",
         }}
       >
@@ -31,14 +30,17 @@ export default function allProjects() {
           style={{
             minWidth: `60%`,
             padding: `2rem`,
-
             backgroundColor: `#f1f2f2`,
             display: `flex`,
             justifyContent: `center`,
             alignItems: `center`,
           }}
         >
-          <img src={WeatherappImage} style={{ margin: `0 ` }}></img>
+          <img
+            src={WeatherappImage}
+            style={{ margin: `0 ` }}
+            alt="Weather App"
+          ></img>
         </div>
         <div
           className="project-info"
@@ -117,7 +119,6 @@ export default function allProjects() {
           width: `100%`,
           boxShadow: `0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)`,
           marginBottom: `2rem`,
-
           fontFamily: "Helvetica",
         }}
       >
@@ -133,7 +134,11 @@ export default function allProjects() {
             alignItems: `center`,
           }}
         >
-          <img src={NewPortfolioImage} style={{ margin: `0 ` }}></img>
+          <img
+            src={NewPortfolioImage}
+            style={{ margin: `0 ` }}
+            alt="Portfolio-v3 App"
+          ></img>
         </div>
         <div
           className="project-info"
@@ -205,7 +210,6 @@ export default function allProjects() {
           width: `100%`,
           boxShadow: `0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)`,
           marginBottom: `2rem`,
-
           fontFamily: "Helvetica",
         }}
       >
@@ -221,7 +225,11 @@ export default function allProjects() {
             alignItems: `center`,
           }}
         >
-          <img src={SimonappImage} style={{ margin: `0 ` }}></img>
+          <img
+            src={SimonappImage}
+            style={{ margin: `0 ` }}
+            alt="Simon App"
+          ></img>
         </div>
         <div
           className="project-info"
@@ -299,7 +307,11 @@ export default function allProjects() {
             alignItems: `center`,
           }}
         >
-          <img src={NewsIamge} style={{ margin: `0 ` }}></img>
+          <img
+            src={NewsIamge}
+            style={{ margin: `0 ` }}
+            alt="Newsletter App"
+          ></img>
         </div>
         <div
           className="project-info"
@@ -377,7 +389,11 @@ export default function allProjects() {
             alignItems: `center`,
           }}
         >
-          <img src={DiceappImage} style={{ margin: `0 ` }}></img>
+          <img
+            src={DiceappImage}
+            style={{ margin: `0 ` }}
+            alt="Dice Game"
+          ></img>
         </div>
         <div
           className="project-info"
@@ -457,7 +473,11 @@ export default function allProjects() {
             alignItems: `center`,
           }}
         >
-          <img src={DrumkitImage} style={{ margin: `0 ` }}></img>
+          <img
+            src={DrumkitImage}
+            style={{ margin: `0 ` }}
+            alt="Drumkit  App"
+          ></img>
         </div>
         <div
           className="project-info"
@@ -535,7 +555,11 @@ export default function allProjects() {
             alignItems: `center`,
           }}
         >
-          <img src={TindogImage} style={{ margin: `0 ` }}></img>
+          <img
+            src={TindogImage}
+            style={{ margin: `0 ` }}
+            alt="Tindog App"
+          ></img>
         </div>
         <div
           className="project-info"
@@ -607,7 +631,7 @@ export default function allProjects() {
             alignItems: `center`,
           }}
         >
-          <img src={TodoImage} style={{ margin: `0 ` }}></img>
+          <img src={TodoImage} style={{ margin: `0 ` }} alt="Todo App"></img>
         </div>
         <div
           className="project-info"
@@ -687,7 +711,11 @@ export default function allProjects() {
             alignItems: `center`,
           }}
         >
-          <img src={JournalappImage} style={{ margin: `0 ` }}></img>
+          <img
+            src={JournalappImage}
+            style={{ margin: `0 ` }}
+            alt="Journal App"
+          ></img>
         </div>
         <div
           className="project-info"
@@ -770,7 +798,11 @@ export default function allProjects() {
             alignItems: `center`,
           }}
         >
-          <img src={PortfolioImage} style={{ margin: `0 ` }}></img>
+          <img
+            src={PortfolioImage}
+            style={{ margin: `0 ` }}
+            alt="Portfolio v1 App"
+          ></img>
         </div>
         <div
           className="project-info"

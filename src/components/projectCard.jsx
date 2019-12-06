@@ -28,7 +28,11 @@ export default function projectCard() {
             alignItems: `center`,
           }}
         >
-          <img src={WeatherappImage} style={{ margin: `0 ` }}></img>
+          <img
+            src={WeatherappImage}
+            style={{ margin: `0 ` }}
+            alt="Weather App"
+          ></img>
         </div>
         <div
           className="project-info"
@@ -119,7 +123,11 @@ export default function projectCard() {
             alignItems: `center`,
           }}
         >
-          <img src={PortfolioImage} style={{ margin: `0 ` }}></img>
+          <img
+            src={PortfolioImage}
+            style={{ margin: `0 ` }}
+            alt="Portfolio v-3 App"
+          ></img>
         </div>
         <div
           className="project-info"

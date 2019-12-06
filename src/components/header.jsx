@@ -31,7 +31,11 @@ const Header = () => (
         }}
       >
         {" "}
-        <img src={Logo} style={{ width: `80px`, margin: `0` }}></img>
+        <img
+          src={Logo}
+          style={{ width: `80px`, margin: `0` }}
+          alt="Title logo"
+        ></img>
       </Link>
       <div style={{ display: `flex` }}>
         <Link
