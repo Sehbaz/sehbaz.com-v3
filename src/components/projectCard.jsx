@@ -1,5 +1,4 @@
 import React from "react"
-
 import "../global/global.css"
 import PortfolioImage from "../images/sehbaz-v3.png"
 import WeatherappImage from "../images/weather.png"
@@ -13,7 +12,6 @@ export default function projectCard() {
           justifyContentc: `center`,
           alignItems: `center`,
           width: `100%`,
-
           boxShadow: `0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)`,
           marginBottom: `2rem`,
           fontFamily: "Helvetica",
@@ -24,7 +22,6 @@ export default function projectCard() {
           style={{
             minWidth: `60%`,
             padding: `2rem`,
-
             backgroundColor: `#f1f2f2`,
             display: `flex`,
             justifyContent: `center`,
@@ -64,10 +61,10 @@ export default function projectCard() {
           </a>
           <p style={{ fontFamily: "Helvetica" }}>
             I wanted to play around ReactJS, so I made this simple project which
-            fetch the weather of the entered location and not only it shows the
+            fetches the weather of the entered location and not only shows the
             current weather but also the top five news from an American online
-            publisher TechCrunch. Openweathermap and techcrunch api are used to
-            fetch the real time data. One of the projects I'm most proud of.
+            publisher TechCrunch. Openweathermap and TechCrunch API are used to
+            fetch real-time data. One of the projects I'm most proud of.
           </p>
           <h5>Tools</h5>
           <button class=" toolsbtn " disabled>
@@ -156,7 +153,7 @@ export default function projectCard() {
           <p style={{ fontFamily: "Helvetica" }}>
             I wanted something fast and with good SEO for my portfolio, so a
             static website generator like Gatsby seemed like the best fit. I
-            have made my portfolio site an open source so this may inspire to
+            have made my portfolio site an open-source so this may inspire a
             junior developer.
           </p>
           <h5>Tools</h5>

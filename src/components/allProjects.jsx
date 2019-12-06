@@ -274,6 +274,7 @@ export default function allProjects() {
           </div>
         </div>
       </div>
+      {/* Newletter app */}
       <div
         className="flex-container"
         style={{
@@ -352,6 +353,7 @@ export default function allProjects() {
           </div>
         </div>
       </div>
+      {/* Dice game app */}
       <div
         className="flex-container"
         style={{
@@ -360,7 +362,6 @@ export default function allProjects() {
           width: `100%`,
           boxShadow: `0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)`,
           marginBottom: `2rem`,
-
           fontFamily: "Helvetica",
         }}
       >
@@ -432,6 +433,7 @@ export default function allProjects() {
           </div>
         </div>
       </div>
+      {/* Drum kit app */}
       <div
         className="flex-container"
         style={{
@@ -440,7 +442,6 @@ export default function allProjects() {
           width: `100%`,
           boxShadow: `0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)`,
           marginBottom: `2rem`,
-
           fontFamily: "Helvetica",
         }}
       >
@@ -508,6 +509,8 @@ export default function allProjects() {
           </div>
         </div>
       </div>
+      {/* Tindog app */}
+
       <div
         className="flex-container"
         style={{
@@ -579,6 +582,7 @@ export default function allProjects() {
           </div>
         </div>
       </div>
+      {/* Todo app app */}
       <div
         className="flex-container"
         style={{
@@ -659,6 +663,7 @@ export default function allProjects() {
           </div>
         </div>
       </div>
+      {/* Journal app */}
       <div
         className="flex-container"
         style={{
@@ -667,7 +672,6 @@ export default function allProjects() {
           width: `100%`,
           boxShadow: `0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)`,
           marginBottom: `2rem`,
-
           fontFamily: "Helvetica",
         }}
       >
@@ -742,6 +746,7 @@ export default function allProjects() {
           </div>
         </div>
       </div>
+      {/* portfolio v1 app */}
       <div
         className="flex-container"
         style={{

@@ -9,7 +9,6 @@ import "../global/global.css"
 const IndexPage = () => (
   <Layout>
     <SEO title="Sehbaz Rafik" />
-
     <h2
       style={{
         padding: `5rem 1.5rem`,
