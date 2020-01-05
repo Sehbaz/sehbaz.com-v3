@@ -10,7 +10,7 @@ const NotFoundPage = () => (
     <h3>PAGE NOT FOUND</h3>
     <p>The page you are looking for might have been not available</p>
     <Link
-      to="/work"
+      to="/"
       style={{
         textDecoration: `none`,
         color: `#5393fe`,
