@@ -2,6 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import Footer from "../components/footer"
 import Layout from "../components/layout"
+import Skills from "../components/Skills"
 import SEO from "../components/seo"
 import ProjectCard from "../components/projectCard"
 import "../global/global.css"
@@ -40,6 +41,7 @@ const IndexPage = () => (
         alignItems: `center`,
       }}
     >
+      <Skills></Skills>
       <ProjectCard></ProjectCard>
       <Link
         to="/work"

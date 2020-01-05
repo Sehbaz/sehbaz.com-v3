@@ -1,0 +1,12 @@
+.main-container {
+  text-align: center;
+}
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.chart-img {
+  width: 30%;
+  height: 30%;
+}

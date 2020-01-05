@@ -6,6 +6,7 @@ import WeatherappImage from "../images/weather.png"
 export default function projectCard() {
   return (
     <div style={{ margin: `0`, width: `100%` }}>
+      <h2>Work</h2>
       <div
         className="flex-container"
         style={{
