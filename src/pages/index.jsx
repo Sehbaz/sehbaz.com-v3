@@ -27,7 +27,7 @@ const IndexPage = () => (
       >
         Sehbaz
       </span>
-      , a frontend web developer based in Leicester. I focus on{" "}
+      , a full-stack web developer based in Leicester. I focus on{" "}
       <span style={{ color: `#f46b3f` }}>delivering </span>
       optimal solutions to design and code problems that enhance the user’s
       <span style={{ color: `#17b1b1` }}> experience</span>.
